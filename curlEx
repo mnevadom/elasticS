@@ -1,0 +1,2 @@
+curl -H "Content-Type: application/json" -X POST -d '{"id" : "foo1","name" : "foo2nombre"}' https://uv20wv3ee9.execute-api.us-east-1.amazonaws.com/test/createcontainer
+curl -H "Content-Type: application/json" -X GET https://uv20wv3ee9.execute-api.us-east-1.amazonaws.com/test/getcontainer?id=mifoo1
