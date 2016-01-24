@@ -1,0 +1,7 @@
+
+instalar pip
+
+y luego awsclient
+
+
+agregar credenciales a awsclient, para que las recoja boto3

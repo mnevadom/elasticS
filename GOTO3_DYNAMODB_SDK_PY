@@ -1,1 +1,8 @@
 http://boto3.readthedocs.org/en/latest/guide/dynamodb.html#creating-a-new-item
+
+http://boto3.readthedocs.org/en/latest/reference/services/dynamodb.html#DynamoDB.Client.get_item
+
+https://boto3.readthedocs.org/en/latest/guide/quickstart.html#installation
+
+
+http://boto.cloudhackers.com/en/latest/getting_started.html
