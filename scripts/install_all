@@ -1,0 +1,6 @@
+install python
+install pip herramienta de tools de py
+install boto3
+install awsclient
+poner credenciales en awsclient
+ejecutar los PY
