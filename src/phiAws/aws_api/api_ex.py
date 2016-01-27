@@ -2,8 +2,6 @@ import api_client
 import pprint
 import boto3
 
-print('avaible apis: ')
-pprint.pprint(api_client.get_rest_apis())
 
 nameApi = 'PhiSc'
 rest_api = api_client.create_rest_api(nameApi, 'phi api to manage containers', '')
@@ -35,8 +33,8 @@ resId = newRes['id']
 
 
 # put integration, wit GET or PUT
-# need to get the uri of lambda function, for now: arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:471454180135:function:getContainer/invocations
-uriLambdaFunc = 'arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:471454180135:function:getContainer/invocations'
+# need to get the uri of aws_lambda function, for now: arn:aws:apigateway:us-east-1:aws_lambda:path/2015-03-31/functions/arn:aws:aws_lambda:us-east-1:471454180135:function:getContainer/invocations
+uriLambdaFunc = 'arn:aws:apigateway:us-east-1:aws_lambda:path/2015-03-31/functions/arn:aws:aws_lambda:us-east-1:471454180135:function:getContainer/invocations'
 
 # first we create the method
 resMethod = api_client.put_resource_method(idApi, resId, 'GET', '')

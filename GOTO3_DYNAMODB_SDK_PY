@@ -10,3 +10,22 @@ http://boto.cloudhackers.com/en/latest/getting_started.html
 
 better documentacion for api gateway api
 http://docs.aws.amazon.com/apigateway/api-reference/resource/integration/#uri
+
+
+better documentation for lambda
+http://docs.aws.amazon.com/fr_fr/lambda/latest/dg/API_FunctionCode.html
+example creating function lambda from boto
+https://github.com/garnaat/kappa/blob/develop/kappa/function.py#L121
+
+
+formato de iam role para lambda
+https://github.com/motdotla/node-lambda-template/issues/1
+el iam se ve en la consola de seguridad de aws ultima opcion
+
+
+ejemplo lambda create function
+https://github.com/garnaat/kappa/blob/develop/kappa/function.py#L121
+https://github.com/boto/boto3/issues/201
+
+to upload zip file args
+http://docs.aws.amazon.com/fr_fr/lambda/latest/dg/python-programming-model-handler-types.html
