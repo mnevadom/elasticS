@@ -3,5 +3,6 @@ instalar pip
 
 y luego awsclient
 
+http://docs.aws.amazon.com/fr_fr/cli/latest/userguide/installing.html#install-bundle-other-os
 
 agregar credenciales a awsclient, para que las recoja boto3

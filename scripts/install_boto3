@@ -4,3 +4,7 @@
 git clone git://github.com/boto/boto.git
 cd boto
 python setup.py install
+
+
+se puede instalar tambien con pip 
+https://boto3.readthedocs.org/en/latest/guide/quickstart.html#installation
