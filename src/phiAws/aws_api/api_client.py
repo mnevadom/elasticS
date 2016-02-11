@@ -3,6 +3,12 @@ import boto3
 client = boto3.client('apigateway')
 
 
+def delete_rest_api(idApi):
+    return client.delete_rest_api(
+        restApiId=idApi
+    )
+
+
 def get_rest_apis():
     return client.get_rest_apis(
             limit=123

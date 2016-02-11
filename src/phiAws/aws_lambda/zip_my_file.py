@@ -1,6 +1,6 @@
 import zipfile
 import datetime
-
+import os
 
 def print_zip_info(archive_name):
     zf = zipfile.ZipFile(archive_name)
@@ -16,15 +16,19 @@ def print_zip_info(archive_name):
 
 
 def create_zip_file(file):
-    print('creating archive ' + file)
-    print(file.replace('.py', '') + '.zip')
-    zf = zipfile.ZipFile(file.replace('.py', '') + '.zip', mode='w')
+    print('creating zip file from file ' + file)
+    zipFile = (file.replace('.py', '') + '.zip')
+    print('zip to create: ' + file.replace('.py', '') + '.zip')
+    zf = zipfile.ZipFile(zipFile, mode='w')
     #hacer un if file exists!!
     try:
         zf.write(file)
-        print ('Created zip file: ')
-        print_zip_info('get_container_func.zip')
+        print ('Created zip file: ' + zf)
+        #fileOut = os.path.join()
+        print_zip_info(zipfile)
     except:
         print ('error reading zip file ' + file)
     finally:
         zf.close()
+
+    return zipFile

@@ -29,3 +29,6 @@ https://github.com/boto/boto3/issues/201
 
 to upload zip file args
 http://docs.aws.amazon.com/fr_fr/lambda/latest/dg/python-programming-model-handler-types.html
+
+API GOTO CREATION (BUENO!! )
+http://docs.aws.amazon.com/fr_fr/lambda/latest/dg/with-on-demand-https-example-configure-event-source.html
